@@ -26,6 +26,36 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <37 40>;
         };
+
+        parenthL {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
+
+        bracketsL {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+        };
+
+        curlyL {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <28 29>;
+        };
+
+        parenthR {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        bracketR {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        curlyR {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <30 31>;
+        };
     };
 
     keymap {
